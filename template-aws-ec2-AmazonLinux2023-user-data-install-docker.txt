@@ -1,0 +1,28 @@
+#!/bin/bash
+############################
+#   Amazon Linux 2023      #
+#   Install Docker         #
+############################
+
+# User data script to install Docker on Amazon Linux 2023
+
+# Update system
+sudo dnf update -y
+
+# Install docker
+sudo dnf install -y docker
+
+# Enable and start Docker service
+sudo systemctl enable docker
+sudo systemctl start docker
+
+# Add ec2-user to docker group so you can run docker without sudo
+sudo usermod -aG docker ec2-user
+
+# Install Docker Compose v2 (CLI plugin) (Optional)
+#DOCKER_CONFIG=${DOCKER_CONFIG:-/home/ec2-user/.docker}
+#mkdir -p $DOCKER_CONFIG/cli-plugins
+#curl -SL https://github.com/docker/compose/releases/download/v2.39.2/docker-compose-linux-$(uname -m) \
+#  -o $DOCKER_CONFIG/cli-plugins/docker-compose
+#chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose
+#chown -R ec2-user:ec2-user $DOCKER_CONFIG
