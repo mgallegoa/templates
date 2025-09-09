@@ -46,6 +46,6 @@ Describe how to run test
 
 Other sub-title for more important information
 
-## Support by me a coffee:
+## Support, buy me a coffee:
 
-[Go to by me a coffee](https://buymeacoffee.com/manuelarias)
+[Go to buy me a coffee](https://buymeacoffee.com/manuelarias)

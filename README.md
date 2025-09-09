@@ -1,4 +1,4 @@
-# templates to work like a software engineer
+# Templates to work like a Software Engineer
 
                ███╗░░░███╗░█████╗░███╗░░██╗██╗░░░██╗███████╗██╗░░░░░
                ████╗░████║██╔══██╗████╗░██║██║░░░██║██╔════╝██║░░░░░
@@ -7,7 +7,7 @@
                ██║░╚═╝░██║██║░░██║██║░╚███║╚██████╔╝███████╗███████╗
                ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚══════╝╚══════╝
 
-Templates useful to work like software engineer. Contain templates for readme, aws, java-projects, node-projects. etc
+Contain templates for readme, aws, java-projects, node-projects. etc
 
 > [!NOTE]
 > The name of the files are self explanatory, for example: template-aws-ec2-AmazonLinux2023-user-data-install-docker.txt contain the user data to set up an ec2 instance in aws and install docker.
@@ -19,9 +19,7 @@ Templates useful to work like software engineer. Contain templates for readme, a
 
 ## Templates for Terraform
 
-### ✅ Most Common User-Accessible Ones:
-
-Other sub-title for more important information
+✅ You can find a full complete guide and templates in my repository [Infraestructure As Code](https://github.com/mgallegoa/infraestructure-as-code)
 
 ## Support by me a coffee:
 
