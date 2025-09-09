@@ -21,6 +21,6 @@ Contain templates for readme, aws, java-projects, node-projects. etc
 
 ✅ You can find a full complete guide and templates in my repository [Infraestructure As Code](https://github.com/mgallegoa/infraestructure-as-code)
 
-## Support by me a coffee:
+## Support, buy me a coffee:
 
-[Go to by me a coffee](https://buymeacoffee.com/manuelarias)
+[Go to buy me a coffee](https://buymeacoffee.com/manuelarias)
