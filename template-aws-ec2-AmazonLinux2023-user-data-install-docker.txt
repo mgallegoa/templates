@@ -7,10 +7,10 @@
 # User data script to install Docker on Amazon Linux 2023
 
 # Update system
-sudo dnf update -y
+sudo yum update -y
 
 # Install docker
-sudo dnf install -y docker
+sudo yum install -y docker
 
 # Enable and start Docker service
 sudo systemctl enable docker
